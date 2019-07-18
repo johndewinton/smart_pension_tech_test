@@ -34,7 +34,7 @@ b. Returns the following:
 
 ## Running the app ##
 
-* Clone this repository: git clone git@github.com:johndewinton/smart_pension_tech_test
+* Clone this repository: git clone git@github.com:johndewinton/smart_pension_tech_test.git
 
 * Go into the repository: cd smart_pension_tech_test
 
