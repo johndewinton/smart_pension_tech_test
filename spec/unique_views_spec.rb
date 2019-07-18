@@ -9,7 +9,7 @@ describe 'UniqueViews' do
       parser = Parse.new(filename: work_file)
       expect(parser.identify_unique_views_parsed_file).to include(["/about", "897.280.786.156"],["/home", "897.280.786.156"],["/home", "715.156.286.412"],)
     end
-    it 'returns' do
+    it 'returns the total unique views per file path' do
       work_file = './lib/webserver.log'
       parser = Parse.new(filename: work_file)
       expect(parser.total_unique_views_per_file_path).to eq([["/help_page/1", 20], ["/contact", 21], ["/about/2", 18], ["/index", 19], ["/about", 18], ["/home", 21]])
