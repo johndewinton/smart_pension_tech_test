@@ -32,6 +32,6 @@ b. Returns the following:
 * Rubocop
 * Pry
 
-
+## Running the app ##
 
 
