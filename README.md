@@ -46,6 +46,46 @@ b. Returns the following:
 
 Run RSpec in your terminal
 
+Parse
+
+  #create
+  
+    when no path is supplied
+    
+      should not run
+      
+    when a path is supplied
+    
+      should run
+
+TotalViews
+
+  when sorting logfile based on total views
+  
+    returns an array of file paths
+    
+    returns the total views per file path
+    
+    returns the sorted result in array form
+    
+    returns the sorted result in a string
+
+UniqueViews
+
+  when sorting logfile based on order of unique views
+  
+    identifies the unique views and deletes the duplicates in the parsed array
+    
+    returns the total unique views per file path
+    
+    returns the sorted array based on number of unique views
+    
+    returns the sorted result based on unique views
+
+Finished in 0.80916 seconds (files took 0.44002 seconds to load)
+10 examples, 0 failures
+
+
 ## Approach ##
 
 * I used TDD whilst solving this challenge which was my first time.
