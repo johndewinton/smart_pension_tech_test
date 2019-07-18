@@ -25,7 +25,12 @@ b. Returns the following:
          /index     5 unique views
          etc...
 
+## Technologies used ##
 
+* Ruby
+* RSpec
+* Rubocop
+* Pry
 
 
 
