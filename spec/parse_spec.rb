@@ -1,8 +1,6 @@
 # frozen_string_literal: true
 
 require './lib/parse'
-require './lib/total_views'
-require './lib/unique_views'
 
  describe 'Parse' do
    context '#create' do
