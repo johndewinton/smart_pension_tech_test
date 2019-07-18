@@ -1,8 +1,8 @@
-This test should not take you longer than two hours to complete.
+# Smart Pension Tech Test #
 
-What we are looking for: functionality, efficiency, readability and tests
-Use this test to demonstrate your understanding of OO and TDD.
+A Ruby Application parsing a given log file directory and returns a given result using Object Oriented Programming (OOP) and Test Driven Development (TDD).
 
+## Instructions for Tech Test ##
 
 1. ruby_app
 
@@ -18,8 +18,15 @@ b. Returns the following:
          /home 90 visits
          /index 80 visits
          etc...
-  > list of webpages with most unique page views also ordered
+ 
+ > list of webpages with most unique page views also ordered
      e.g.:
          /about/2   8 unique views
          /index     5 unique views
          etc...
+
+
+
+
+
+
