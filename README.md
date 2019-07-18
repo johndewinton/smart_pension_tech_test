@@ -50,37 +50,37 @@ Parse
 
   #create
   
-    when no path is supplied
+    1) when no path is supplied
     
-      should not run
+      * should not run
       
-    when a path is supplied
+    2) when a path is supplied
     
-      should run
+      * should run
 
 TotalViews
 
-  when sorting logfile based on total views
+  3) when sorting logfile based on total views
   
-    returns an array of file paths
+    * returns an array of file paths
     
-    returns the total views per file path
+    * returns the total views per file path
     
-    returns the sorted result in array form
+    * returns the sorted result in array form
     
-    returns the sorted result in a string
+    * returns the sorted result in a string
 
 UniqueViews
 
-  when sorting logfile based on order of unique views
+  4) when sorting logfile based on order of unique views
   
-    identifies the unique views and deletes the duplicates in the parsed array
+    * identifies the unique views and deletes the duplicates in the parsed array
     
-    returns the total unique views per file path
+    * returns the total unique views per file path
     
-    returns the sorted array based on number of unique views
+    * returns the sorted array based on number of unique views
     
-    returns the sorted result based on unique views
+    * returns the sorted result based on unique views
 
 Finished in 0.80916 seconds (files took 0.44002 seconds to load)
 10 examples, 0 failures
