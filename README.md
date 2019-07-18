@@ -46,4 +46,15 @@ b. Returns the following:
 
 Run RSpec in your terminal
 
+## Approach ##
+
+* I used TDD whilst solving this challenge which was my first time.
+
+* I focused all my methods on one class called Parse where it begins with parsing the logfile into an array of arrays.
+
+* I used Pry to consistently test all my methods individually in order for my application to function and Rubocop to test     against good practice in Ruby.
+
+## Contribution ##
+
+* Pull Requests are welcome.
 
