@@ -42,4 +42,8 @@ b. Returns the following:
 
 * In the command line, run pry or irb.
 
+## Running the tests ##
+
+Run RSpec in your terminal
+
 
